@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  resize: vertical;
+  background: rgba(255, 255, 255, 0.3);
+  color: #333;
+  font-weight: 500;
+  outline: none;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+textarea:focus {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.result-box {
+  margin-top: 25px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.result-box h2 {
+  margin-bottom: 15px;
+  color: #ffe600;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
